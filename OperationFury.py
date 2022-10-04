@@ -9,7 +9,15 @@ Our Welcome Screen will start our program letting drivers know that the InfoTech
 #Import Libraries here
 from time import sleep #We imported the sleep function from the time library
 
-print("\n\nWelcome to Operation Fury InfoTech Center")
+print("\n\n\033[1;36m Welcome to Operation Fury InfoTech Center")
 sleep(2)
-print("\nOperation Fury's Operating System is Booting Up")
+print("\n\033[1;36m Operation Fury's Operating System is Booting Up")
+
+#Code to print a different color
+#print("\033[1;36m This text is Bright Green  \n")
+
+
+
+
+
 
