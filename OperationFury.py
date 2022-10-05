@@ -11,10 +11,15 @@ from time import sleep #We imported the sleep function from the time library
 
 print("\n\n\033[1;36m Welcome to Operation Fury InfoTech Center")
 sleep(2)
-print("\n\033[1;36m Operation Fury's Operating System is Booting Up")
+print("\n\033[1;36m Operation Fury's Operating System is Booting Up\n\033[0m")
 
 #Code to print a different color
-#print("\033[1;36m This text is Bright Green  \n")
+#print("\033[1;36m This text is Bright Green\n\033[0m")
+
+
+for i in range(2):
+    print("OS Booting Up")
+    sleep(.5)
 
 
 
