@@ -1,3 +1,9 @@
+#*****************************************************************************************************************
+#Import Libraries here
+from time import sleep #We imported the sleep function from the time library
+
+import random
+#*****************************************************************************************************************
 
 #Welcome Screen
 #Developer: Jake Harback
@@ -7,24 +13,17 @@
 Our Welcome Screen will start our program letting drivers know that the InfoTechCenter OS is Loading
 """
 
-#Import Libraries here
-from time import sleep #We imported the sleep function from the time library
+
+#Code to print a different color
+#print("\033[1;36m This text is Bright Green\n\033[0m")
 
 print("\n\n\033[1;36m Welcome to Operation Fury InfoTech Center")
 sleep(1.5)
 print("\n\033[1;36m Operation Fury's Operating System is Booting Up\n\033[0m")
 sleep(1.5)
-
-#Code to print a different color
-#print("\033[1;36m This text is Bright Green\n\033[0m")
-
-
 for i in range(8):
     print("OS Booting Up")
     sleep(1)
-
-
-
 
 
 #Weather
@@ -35,9 +34,6 @@ for i in range(8):
 Create a function for our current weather using the random.choice function to determine what the weather is picking
 from a list - using If, Elif & Else statements to check the condition and print a print line
 """
-
-#Import Libraries here
-import random
 
 #Weather condition list using the random.choice library to randomly choose a condition and storing it in its brain
 def weather():
