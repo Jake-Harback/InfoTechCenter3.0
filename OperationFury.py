@@ -23,7 +23,7 @@ sleep(1.5)
 print("\n\033[1;36m Operation Fury's Operating System is Booting Up\n\033[0m")
 sleep(1.5)
 for i in range(8):
-    print("OS Booting Up")
+    print("OS Booting Up\n")
     sleep(1)
 
 
@@ -75,8 +75,6 @@ def gasLevelAlert():
     else:
         print("Your gas tank is full, have a nice drive")
 
-gasLevelAlert()
-
 
 #Weather
 #Developer: Jake Harback
@@ -119,4 +117,14 @@ def vehicleResponseSystem():
         print("\nThe weather today is",weatherAlert, "let's Gooo!")
         print("VRS will only allow your car to go 100MPH")
 
+
+#*****************************************************************************************************************
+
+#Call Functions Here...
+
+
 vehicleResponseSystem()
+print("")
+gasLevelAlert()
+
+
